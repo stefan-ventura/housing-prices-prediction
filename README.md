@@ -63,14 +63,14 @@ A machine learning project that predicts house prices based on property features
 
 | Model | R² | MAE (% of mean price) | RMSE (% of mean price) |
 |---|---|---|---|
-| Linear Regression | 0.66 | ~20% | ~27% |
-| Random Forest | 0.61 | ~22% | ~29% |
+| Linear Regression | 0.66 | 19.3% | 26.2% |
+| Random Forest | 0.61 | 20.8% | 28.0% |
 
 Linear Regression outperformed Random Forest, suggesting the relationships in this dataset are largely linear. The dataset size (545 rows) likely limits the benefit of more complex models.
 
 ### Key Findings
 - `area` and `bathrooms` are the strongest predictors of price
-- Houses with air conditioning, in preferred areas, and with guest rooms tend to have higher prices
+- Houses with air conditioning tend to have higher prices
 - No single feature dominates — multiple features together drive price
 
 ---
